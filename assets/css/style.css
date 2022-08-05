@@ -12908,17 +12908,19 @@ figcaption {
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-top: 105px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
 }
 @media only screen and (max-width: 767px) {
   .slider-style-5 {
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    padding-top: 10px;
   }
 }
 .slider-style-5.height--100 {
-  height: 730px;
+  /* height: 730px; */
+  height: 10px;
 }
 .slider-style-5.position-content {
   transform: translateY(150px);
@@ -12970,7 +12972,7 @@ figcaption {
 }
 .slider-style-5 .cd-headline .cd-words-wrapper b {
   font-weight: 300;
-  font-size: 30px;
+  font-size: 18px;
   color: var(--color-primary);
 }
 .slider-style-5 .social-share-style-1 {
