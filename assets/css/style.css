@@ -533,7 +533,7 @@ ol ul {
 }
 
 .rn-section-gap {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-section-gap {
@@ -542,7 +542,7 @@ ol ul {
 }
 @media only screen and (max-width: 767px) {
   .rn-section-gap {
-    padding: 80px 0;
+    padding: 50px 0;
   }
 }
 
@@ -12425,14 +12425,14 @@ figcaption {
   transform: translateY(-5px);
 }
 .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top {
-  padding: 35px;
+  padding: 16px;
   background: var(--background-color-2);
   box-shadow: var(--shadow-1);
   border-radius: 10px 10px;
 }
 @media only screen and (max-width: 479px) {
   .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top {
-    padding: 25px;
+    padding: 12px;
     padding-top: 41px;
   }
 }
@@ -12549,6 +12549,23 @@ figcaption {
   .title
   span {
   color: var(--color-primary);
+  text-shadow: 2px 8px 6px rgb(0 0 0 / 20%),
+    0px -5px 35px rgb(255 255 255 / 30%);
+  background: -webkit-linear-gradient(#00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.skills__subtitle {
+  color: var(--first-color);
+  /* color: rgba(0, 0, 0, 0.6); */
+  text-shadow: 2px 8px 6px rgb(0 0 0 / 20%),
+    0px -5px 35px rgb(255 255 255 / 30%);
+  margin-bottom: var(--mb-3);
+  background: -webkit-linear-gradient(#00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .slide.slider-style-3
   .slider-wrapper
@@ -12640,7 +12657,7 @@ figcaption {
   }
 }
 .slide.slider-style-3 .slider-wrapper .background-image-area {
-  padding: 34px;
+  padding: 0px;
   box-shadow: var(--shadow-1);
   position: relative;
   right: 0;
@@ -14029,8 +14046,8 @@ div#featured-project-carousel {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #1a1d23;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  /* padding-bottom: 20px;
+  margin-bottom: 20px; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .personal-experience-inner
@@ -19891,8 +19908,21 @@ body.white-version {
   .slider-wrapper
   .slider-info
   .user-info-top {
-  background: var(--gradient-box-w);
+  border-radius: 0.8rem;
+  /* padding: 1.5rem 1rem; */
+  background-color: rgba(135, 206, 250, 0.1);
+
+  /* background: var(--gradient-box-w); */
   box-shadow: var(--shadow-white-3);
+  text-align: justify;
+}
+.backani {
+  background-color: rgba(135, 206, 250, 0.1);
+  margin-bottom: var(--mb-3);
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.8rem;
+  box-shadow: var(--shadow-white-3);
+  text-align: justify;
 }
 
 .white-version
@@ -19968,7 +19998,16 @@ body.white-version {
   svg {
   color: var(--color-body-white);
 }
-
+.white-version
+  .slide.slider-style-3
+  .slider-wrapper
+  .slider-info
+  .user-info-top
+  .user-info-header
+  .title {
+    text-align: center;
+    margin-top: 1rem;
+}
 .white-version
   .pricing-style-2
   .pricing-wrapper
