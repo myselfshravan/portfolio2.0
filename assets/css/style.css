@@ -39,12 +39,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
-  --color-primary: #ff004c;
+  /* --color-primary: #ff004c; */
   --color-primary: rgb(41, 137, 255);
   --color-secondary: #f4f5f6;
   --color-tertiary: #0d1013;
   --color-gray: #f6f6f6;
-  --color-subtitle: #fa004f;
+  /* --color-subtitle: #fa004f; */
   --color-subtitle: rgb(36, 138, 255);
 
   --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
@@ -12392,25 +12392,28 @@ figcaption {
   }
 }
 .slide.slider-style-3 .slider-wrapper {
-  padding-top: 210px;
+  /* padding-top: 210px; */
+  padding-top: 105px;
   display: flex;
   justify-content: space-between;
 }
 @media only screen and (max-width: 1199px) {
   .slide.slider-style-3 .slider-wrapper {
-    padding-top: 126px;
+    /* padding-top: 126px; */
+    padding-top: 75px;
     padding-bottom: 45px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide.slider-style-3 .slider-wrapper {
-    padding-top: 126px;
+    /* padding-top: 126px; */
+    padding-top: 75px;
     padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 479px) {
   .slide.slider-style-3 .slider-wrapper {
-    padding-top: 126px;
+    padding-top: 75px;
     padding-bottom: 16px;
   }
 }
@@ -12647,7 +12650,7 @@ figcaption {
 }
 @media only screen and (max-width: 479px) {
   .slide.slider-style-3 .slider-wrapper .background-image-area {
-    padding: 20px;
+    padding: 0px;
   }
 }
 .slide.slider-style-3 .slider-wrapper .background-image-area:hover {
@@ -12663,8 +12666,9 @@ figcaption {
   img {
   width: 100%;
   height: 100%;
-  border-radius: 8px;
+  border-radius: 10px;
   object-fit: cover;
+  /* box-shadow: rgb(38, 57, 77, 0.7) 0px 20px 60px -8px; */
 }
 .slide.slider-style-4 {
   height: 100vh;
@@ -19905,7 +19909,10 @@ body.white-version {
   color: var(--color-primary);
 }
 
-.white-version .slide.slider-style-3 .slider-wrapper .background-image-area,
+.white-version .slide.slider-style-3 .slider-wrapper .background-image-area {
+  /* background: transparent !important; */
+  box-shadow: rgb(38, 57, 77, 0.7) 0px 20px 60px -8px;
+}
 .white-version .portfolio-style-two .carousel.slide,
 .white-version .pricing-style-2 .pricing-wrapper,
 .white-version .pricing-style-2 .pricing-wrapper-pro,
